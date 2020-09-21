@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_number": "68684550138",
+    "firebase_url": "https://area-13e0f.firebaseio.com",
+    "project_id": "area-13e0f",
+    "storage_bucket": "area-13e0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68684550138:android:37c2803c8f01b26d321e43",
+        "android_client_info": {
+          "package_name": "com.epitech.area"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68684550138-3df8f8o838bu762l75ee268fgac4uq0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epitech.area",
+            "certificate_hash": "0227c22819a37f9dc6118152863bd27c044d1186"
+          }
+        },
+        {
+          "client_id": "68684550138-osqtlg3kj0rrsdt8m23t58tl1puaccgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epitech.area",
+            "certificate_hash": "0227c22819a37f9dc6118152863bd27c044d1186"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCia5uRIOr2DIC462Ck27s9OP_hS_NkL78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68684550138-uuqk24dg273mp1dvkaaqkph81uliutoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

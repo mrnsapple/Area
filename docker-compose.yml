@@ -1,0 +1,42 @@
+version: '3.7'
+
+services:
+  server:
+    container_name: server
+    build:
+      context: ./server/
+      dockerfile: Dockerfile
+    ports:
+      - '8080:8080'
+    environment:
+      NODE_ENV: development
+      GITHUB_ID: caf1e0fc4050932109e8
+      GITHUB_SECRET: 250ca37125e200803ffdc5eb0fc5f14888a19857
+      GITHUB_REDIRECT_URL: http://localhost/github/callback
+      TRELLO_KEY: 034be0dba1dd019d4ad2ad30e860398a
+      TRELLO_SECRET: f84cd646c3437f60a10cb651f330bffc777e8b5fd5157f9f39b36aa646157781
+
+  client_mobile:
+    build: ./client_mobile/
+    volumes: 
+      - clients:/app/area/apk
+    depends_on: 
+      - server
+
+  client_web:
+    container_name: client_web
+    build:
+      context: ./client_web/
+      dockerfile: Dockerfile
+    ports:
+      - '8081:3000'
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - clients:/app/public/apk
+    depends_on:
+      - server
+      - client_mobile
+
+volumes:
+  clients:

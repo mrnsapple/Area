@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for AREA project",
+  "main": "server_express.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "connect": "^3.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.9.1",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.2",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "query-string": "^6.10.1",
+    "request": "^2.81.0",
+    "superagent": "^5.2.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server_express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "DEV_area_2019"
+  },
+  "keywords": [
+    "AREA"
+  ],
+  "author": "BillowBone",
+  "license": "ISC"
+}

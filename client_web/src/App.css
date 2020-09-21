@@ -1,0 +1,43 @@
+form{
+  position: relative;
+  text-align: center;
+  margin-top: 260px;
+}
+input{
+  width: 300px;
+  font-family: 'Helvetica', serif; 
+  font-size: 20px; 
+  padding: 12px 20px; 
+  margin: 8px 0; 
+  border: groove; 
+  border-bottom: 2px solid #767474; 
+}
+button{
+  font-family: 'Helvetica', serif; 
+  background-color: blueviolet; 
+  border: none; 
+  color: white; 
+  padding: 16px 32px; 
+  margin: 4px 2px; 
+  border-radius: 10px; 
+}
+
+nav{
+  background-color: cornflowerblue;
+}
+
+quit{
+  font-family: 'Helvetica', serif; 
+  background-color: blueviolet; 
+  border: none; 
+  color: white;
+  margin-top: -100px;
+  margin-left: 80%;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.map{
+  margin-left: 70%;
+  margin-top: 100px;
+}
